@@ -21,10 +21,18 @@ Console.WriteLine(message4);
 string concat = message1 + " " + message2 + " " + message3 + " " + message4;
 Console.WriteLine("\n " + concat);
 
-/// Substituindo conteudo da string
+/// Substituindo conteudo da string 👍👍
 
 string nomeCompleto = "Julio Cesar Nardi";
 nomeCompleto = nomeCompleto.Replace("Nardi", "Pastel");
 Console.WriteLine(nomeCompleto);
 
-// Comparação de Strings
+// Comparação de Strings `(*>﹏<*)′
+
+bool isNomeEqual = (nomeCompleto == "Julio Cesar Nardi");
+
+Console.WriteLine(isNomeEqual);
+
+bool isNomeEqual2 = string.Equals(nomeCompleto, "Julio Cesar Pastel");
+
+Console.WriteLine(isNomeEqual2);
