@@ -36,3 +36,16 @@ Console.WriteLine(isNomeEqual);
 bool isNomeEqual2 = string.Equals(nomeCompleto, "Julio Cesar Pastel");
 
 Console.WriteLine(isNomeEqual2);
+
+// ヾ(•ω•`)o TIPOS NUMERICOS ヾ(•ω•`)o
+/*
+    sbyte - armazena entre -128 a 127
+    short  -32,768 a 32,767
+    int - -2.147,483,648 a 2.147,483,647 (°ー°〃)
+    long - -9.233.372.036.854.775.808 a 9.233.372.036.854.775.807
+*/
+
+float Myfloat = 10f;
+double myDouble = 5f;
+decimal myDecimal = 7m;
+int myInteger = 0;
