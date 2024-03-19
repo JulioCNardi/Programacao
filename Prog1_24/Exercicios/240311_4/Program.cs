@@ -14,7 +14,7 @@ WriteLine($"c é {c}, d é {d}");
 portanto o acúmulo ocorre antes da atribuição*/
 
 
-// Combinando operadores de atribuição
+// Combinando operadores de atribuição >:)
 
 
 
