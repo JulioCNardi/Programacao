@@ -3,6 +3,8 @@ using _240318_5.Models;
 
 Customer c1 = new Customer();
 
+
+// Variaveis
 c1.CustomerId = 1;
 c1.FirstName = "Jonas";
 c1.LastName = "Broder";
