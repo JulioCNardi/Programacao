@@ -3,6 +3,8 @@ using _240318_5.Models;
 
 Customer c1 = new Customer();
 
+
+// Variaveis
 c1.CustomerId = 1;
 c1.FirstName = "Jonas";
 c1.LastName = "Broder";
@@ -20,8 +22,7 @@ address1.FederalState = "Santa Catarina";
 address1.Country = "Brasil";
 
 c1.Addresses.Add(address1);
-
-Console.WriteLine($"Nome: {c1.FirstName} {c1.LastName}");
+ 
 Console.WriteLine($"E-mail: {c1.EmailAddress}");
 
 foreach(var ad in c1.Addresses)
