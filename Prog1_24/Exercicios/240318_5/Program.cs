@@ -22,8 +22,7 @@ address1.FederalState = "Santa Catarina";
 address1.Country = "Brasil";
 
 c1.Addresses.Add(address1);
-
-Console.WriteLine($"Nome: {c1.FirstName} {c1.LastName}");
+ 
 Console.WriteLine($"E-mail: {c1.EmailAddress}");
 
 foreach(var ad in c1.Addresses)
