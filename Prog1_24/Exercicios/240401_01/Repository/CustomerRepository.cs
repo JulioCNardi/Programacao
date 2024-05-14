@@ -53,7 +53,7 @@ namespace _240401_01.Repository
                     n = c.CustomerId;
             }
 
-            return n++;
+            return ++n;
         }        
     }
 }
